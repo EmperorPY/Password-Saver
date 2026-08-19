@@ -1,17 +1,28 @@
-This simple program creates a file for your passwords. The text file is saved as passwords.txt
-WARNING: This file is not encrypted and isnt safe to cyber attacks to your computer. 
-Use at your own risk
-Code:
--
-print("Welcome to the password manager")
-while True:
-    enter_location = input("What app/website is this password for?").strip()
-    enter_password = input("Enter the password\n>")
-    with open("passwords.txt", "a") as file:
-        file.write(f"Location: {enter_location}\n Password: {enter_password}")
-    repeat = input("Do you want to add another? (Y/N)").strip().upper()
-    if repeat == ("Y"):
-        continue
-    else:
-        print("Thank-you! Your passwords are now saved in the passwords.txt file on your computer.")
-        break
+- **[PROJECT NAME]**
+
+This is a Python project I made while learning Python.
+
+- **What it does**
+
+This program creates a file that saves all your inputted passwords and what they belong to
+
+- **Features**
+
+- File handling
+
+- **What I learned**
+
+- I did not learn anything new making this, but it was good practice.
+
+- **How to run**
+
+Download the files and run the Python file.
+
+- **Made with**
+
+Python
+
+- **Future improvements**
+
+- Ability to remove passwords
+- Encryption
